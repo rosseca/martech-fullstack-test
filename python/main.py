@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 
 def run_query():
-    client = bigquery.Client(project="your-project-id")  # project optional if set via env
+    client = bigquery.Client(project="your-project-id") 
 
     query = """
     -- TODO: Replace with your real query
