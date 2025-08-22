@@ -5,7 +5,7 @@ import { BigQuery } from '@google-cloud/bigquery';
 
 // Configure BigQuery (projectId can be auto-detected if GOOGLE_APPLICATION_CREDENTIALS is set)
 const bigquery = new BigQuery({
-  projectId: 'your-project-id', // optional if already set in env
+  projectId: 'test-tecnicos-apps', // optional if already set in env
 });
 
 async function runQuery() {
